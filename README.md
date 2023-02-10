@@ -10,7 +10,7 @@ Use the ```backslash``` key to open the GUI (by default). Change it from Minecra
 ### Features
 [Modules list](/modules.md)
 
-[Commands list](/commands.md)
+[Commands list](/commands.
 
 ### Disclaimer
 Most of these features are based on Minecraft network stack and do not work on singleplayer.

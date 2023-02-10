@@ -36,6 +36,7 @@ public class Modules {
     this.modules.add(new TrueDurabilityModule());
     this.modules.add(new UndeadModule());
     this.modules.add(new BowBombModule());
+    this.modules.add(new IceSpeedModule());
     this.load();
   }
 

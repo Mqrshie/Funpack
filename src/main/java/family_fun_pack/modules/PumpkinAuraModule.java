@@ -50,6 +50,8 @@ import java.util.function.BiPredicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 
+//Mqrshie's Imports
+import org.lwjgl.input.Keyboard;
 public class PumpkinAuraModule extends Module implements PacketListener {
     private final Minecraft mc = Minecraft.getMinecraft();
     private final HashMap<EntityPlayer, PopCounter> popMap = new HashMap<>();
@@ -76,7 +78,7 @@ public class PumpkinAuraModule extends Module implements PacketListener {
 
     public PumpkinAuraModule() {
         super("Pumpkin Aura", "Pumpkin PvP module for auscpvp.org/2b2t.org.au");
-        FamilyFunPack.addModuleKey(0, this);
+        FamilyFunPack.addModuleKey(Keyboard.KEY_P, this);
     }
 
     @Override
