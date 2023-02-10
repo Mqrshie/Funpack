@@ -41,7 +41,7 @@ public class BlockAtCommand extends Command implements PacketListener {
   private int burst;
 
   public BlockAtCommand() {
-    super("at");
+    super("blockat");
     this.enabled = false;
     this.random = new Random(System.currentTimeMillis());
   }

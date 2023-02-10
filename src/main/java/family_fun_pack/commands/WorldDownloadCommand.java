@@ -19,7 +19,7 @@ public class WorldDownloadCommand extends Command {
   private WorldCapture capture;
 
   public WorldDownloadCommand() {
-    super("download");
+    super("wdl");
     this.capture = null;
   }
 

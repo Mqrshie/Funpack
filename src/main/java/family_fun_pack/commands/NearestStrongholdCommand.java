@@ -23,7 +23,7 @@ import family_fun_pack.utils.FakeWorld;
 public class NearestStrongholdCommand extends Command {
 
   public NearestStrongholdCommand() {
-    super("nearest");
+    super("stronghold");
   }
 
   public String usage() {

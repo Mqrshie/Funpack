@@ -46,7 +46,7 @@ public class LoadChunkCommand extends Command implements PacketListener {
   private int label_id;
 
   public LoadChunkCommand() {
-    super("load");
+    super("loadchunk");
     this.window_lock = new ReentrantReadWriteLock();
     this.window = new HashMap<BlockPos, Long>();
     this.label_id = -1;

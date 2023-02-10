@@ -36,7 +36,7 @@ public class VoidMountCommand extends Command {
   private int last_id;
 
   public VoidMountCommand() {
-    super("mount");
+    super("vmount");
     this.last_id = 42;
   }
 

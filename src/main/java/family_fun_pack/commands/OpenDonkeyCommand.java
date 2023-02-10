@@ -28,7 +28,7 @@ import family_fun_pack.modules.CommandsModule;
 public class OpenDonkeyCommand extends Command implements PacketListener {
 
   public OpenDonkeyCommand() {
-    super("open");
+    super("opendonkey");
   }
 
   public String usage() {

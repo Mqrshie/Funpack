@@ -33,7 +33,7 @@ public class RemoteRideCommand extends Command implements PacketListener {
   private boolean relY;
 
   public RemoteRideCommand() {
-    super("remote");
+    super("remoteride");
     this.relY = false;
   }
 

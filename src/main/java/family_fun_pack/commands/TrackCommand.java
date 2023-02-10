@@ -74,7 +74,7 @@ public class TrackCommand extends Command implements PacketListener {
   private int label_id;
 
   public TrackCommand() {
-    super("scan");
+    super("track");
     this.window_lock = new ReentrantReadWriteLock();
     this.loaded_lock = new ReentrantReadWriteLock();
     this.logs_lock = new ReentrantReadWriteLock();
