@@ -29,7 +29,7 @@ public class PeekCommand extends Command {
   private GuiScreen screen;
 
   public PeekCommand() {
-    super("stare");
+    super("peek");
     this.screen = null;
   }
 
